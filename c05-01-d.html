@@ -1,0 +1,45 @@
+<!DOCTYPE htnl>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="descriprtion" content="tesuto">
+		<title>tesuto</title>
+<style>
+a {
+	color: #0773bc;
+}
+a:link {
+	color: #0073bc;
+}
+a:visited {
+	color: #02314c;
+}
+a:hover {
+	color: #b7dbf2;
+}
+a:active {
+	color: #4ca4e8;
+}
+a[target="_blank"]::after{
+	content: url(::/::/images/opentab.png);
+}
+</style>
+	</head>
+	<body>
+		<h1>sans-serif、serif 以外にもあるCSSフォントファミリーのキーワード</h1>
+		<p>CSSでフォントを指定するにはfont-familyプロパティを使用します。カンマで区切って複数のフォントを指定しておくと、1つ目から順に探して最初に見つかったフォントで表示されます。どれも見つからなかったときの保険として、必ず最後に一般的なフォントファミリーを指すキーワードを入れておきます。</p>
+		<ul>
+			<li><a href="#headline1037">５種類の一般フォントファミリーキーワード</a></li>
+			<li><a href="#headline1014">sans-serif</a></li>
+			<li><a href="#headline1106">serif</a></li>
+		</ul>
+		<h2 id="headline1037">５種類の一般フォントファミリーキーワード</h2
+		<p>特定のフォントではなく一般的なフォントの種類を指すキーワードには、sans-serif、serif、cursive、fantasy、monospaceの5種類があります。</p>
+		<h2 id="headline1014">sans-serif</h2>
+		<p>欧文フォントでは「サンセリフ」を指すキーワードです。日本語では「ゴシック体」が該当します。
+		font-family: sans-serif;</p>
+		<h2 id="headline1106">serif</h2>
+		<p>欧文フォントでは「セリフ」を指すキーワードです。日本語では「明朝体」が該当します。
+		font-family: serif;</p>
+	</body>
+</html>
